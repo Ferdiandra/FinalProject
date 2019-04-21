@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ferdiandra</title>
+     
+        <link rel="stylesheet" href="bootstrap.css">
+    </head>
+    <body>
+       
+        <button type="button" class="btn btn-primary">Pertama</button>
+        <button type="button" class="btn btn-primary">Kedua</button>
+        <button type="button" class="btn btn-primary">Ketiga</button>
+
+     
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                      <img src="https://images.unsplash.com/photo-1554291499-563a504e0734?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="https://images.unsplash.com/photo-1554558424-4a02a6451c4b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=823&q=80" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="https://images.unsplash.com/photo-1553161110-da7abad2dbf5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+              </div>
+           
+      
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+        Pencet aja.
+      </button>
+      
+      <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">HAYOOOO</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+            </div>
+            <H1>NEWBIE BANGET</H1>
+            <div class="bio1">
+                <p>bingung</p>
+            </div>
+            <div class="bio1">
+                <p>pusing</p>
+            </div>
+            <div class="bio1">
+                <p>sebisanya aja</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+  
+        <script src="jquery-3.4.0.js"></script>
+        <script src="popper.min.js"></script>
+        <script src="bootstrap.js"></script>
+        
+        <script>
+            $(document).ready(function() {
+                $('[data-toggle="tooltip"]').tooltip();
+
+            })
+        </script>
+        <script>
+        $('#myModal').on('shown.bs.modal', function () {
+        $('#myInput').trigger('focus')
+})
+        </script>
+        <script>
+        $('#myModal').on('shown.bs.modal', function () {
+         $('#myInput').trigger('focus')
+})
+        </script>
+
+    </body>
+</html>
+
